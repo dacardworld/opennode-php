@@ -4,7 +4,7 @@
 namespace OpenNode;
 
 # HTTP Status 422
-class APIError extends \Exception
+class UnprocessableEntity extends APIError
 {
 
 }
